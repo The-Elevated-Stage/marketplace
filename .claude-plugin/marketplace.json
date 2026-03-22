@@ -1,0 +1,81 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "the-elevated-stage",
+  "description": "Multi-agent orchestration suite for Claude Code — coordinated planning, execution, and recovery",
+  "owner": {
+    "name": "The Elevated Stage",
+    "url": "https://github.com/The-Elevated-Stage"
+  },
+  "plugins": [
+    {
+      "name": "arranger",
+      "description": "Converts designs into phased implementation plans for the orchestration pipeline",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/The-Elevated-Stage/arranger.git",
+        "sha": "e2ad661ff64c57f5cba70712e110e695e7d9cc70"
+      },
+      "homepage": "https://github.com/The-Elevated-Stage/arranger"
+    },
+    {
+      "name": "conductor",
+      "description": "Multi-task coordination for Claude Code orchestration",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/The-Elevated-Stage/conductor.git",
+        "sha": "e9ed4c00dc1544290c6873218bc19e169d1ad053"
+      },
+      "homepage": "https://github.com/The-Elevated-Stage/conductor"
+    },
+    {
+      "name": "copyist",
+      "description": "Task instruction generation for Claude Code orchestration",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/The-Elevated-Stage/copyist.git",
+        "sha": "beb8680426799a628e193fce5c9ae84bcc80de9c"
+      },
+      "homepage": "https://github.com/The-Elevated-Stage/copyist"
+    },
+    {
+      "name": "dramaturg",
+      "description": "Research-driven design exploration for The Elevated Stage",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/The-Elevated-Stage/dramaturg.git",
+        "sha": "ba3f9cb511ff4502d34c80d50ee6b77e9e0abded"
+      },
+      "homepage": "https://github.com/The-Elevated-Stage/dramaturg"
+    },
+    {
+      "name": "musician",
+      "description": "Autonomous task execution for Claude Code orchestration",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/The-Elevated-Stage/musician.git",
+        "sha": "127dd08b42102f66215d2184ff587fc0d24acfe6"
+      },
+      "homepage": "https://github.com/The-Elevated-Stage/musician"
+    },
+    {
+      "name": "repetiteur",
+      "description": "Mid-implementation consultation and re-planning for The Elevated Stage",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/The-Elevated-Stage/repetiteur.git",
+        "sha": "d656ad67ffabdac805725d37d9af4e97d9b6e62a"
+      },
+      "homepage": "https://github.com/The-Elevated-Stage/repetiteur"
+    },
+    {
+      "name": "souffleur",
+      "description": "Conductor liveness watchdog and recovery for The Elevated Stage",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/The-Elevated-Stage/souffleur.git",
+        "sha": "eee037a69b4ae95ee7bd53f584c44809a5f8992d"
+      },
+      "homepage": "https://github.com/The-Elevated-Stage/souffleur"
+    }
+  ]
+}
